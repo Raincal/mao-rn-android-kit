@@ -20,7 +20,7 @@ import {
   CollapsingToolbarLayoutAndroid,
   NestedScrollViewAndroid,
   LayoutParamsAndroid
-} from 'mao-rn-android-kit';
+} from 'rain-rn-android-kit';
 
 import BackButton from './back-button';
 import commonStyles from '../styles';

@@ -16,7 +16,7 @@ import {
   PopupWindowAndroid,
   ExtraDimensionsAndroid,
   GravityAndroid
-} from 'mao-rn-android-kit';
+} from 'rain-rn-android-kit';
 
 import BackButton from './back-button';
 import MyButton from './my-button';

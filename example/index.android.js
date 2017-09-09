@@ -1,24 +1,22 @@
-import * as React from 'react';
-import * as ReactNative from 'react-native';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import {
   AppRegistry,
-  Navigator,
-  BackAndroid,
+  BackHandler,
   TouchableHighlight,
   Text
 } from 'react-native';
+import { Navigator } from 'react-native-deprecated-custom-components';
 
 import routes from './routes';
 
 class App extends Component {
 
   componentWillMount() {
-    BackAndroid.addEventListener('hardwareBackPress', this._handleHardwareBackPress);
+    BackHandler.addEventListener('hardwareBackPress', this._handleHardwareBackPress);
   }
 
   componentWillUnmount() {
-    BackAndroid.removeEventListener('hardwareBackPress', this._handleHardwareBackPress);
+    BackHandler.removeEventListener('hardwareBackPress', this._handleHardwareBackPress);
   }
 
   render() {

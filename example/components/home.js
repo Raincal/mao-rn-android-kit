@@ -107,7 +107,7 @@ export default class Home extends Component {
             title="Extra dimensions"
             color="#2196F3" />
         </View>
-        <Text style={styles.copyright}>&copy; mao-rn-android-kit</Text>
+        <Text style={styles.copyright}>&copy; rain-rn-android-kit</Text>
       </View>
     );
   }

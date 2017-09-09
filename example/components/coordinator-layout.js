@@ -15,7 +15,7 @@ import {
   AppBarLayoutAndroid,
   CoordinatorLayoutAndroid,
   NestedScrollViewAndroid
-} from 'mao-rn-android-kit';
+} from 'rain-rn-android-kit';
 
 import BackButton from './back-button';
 

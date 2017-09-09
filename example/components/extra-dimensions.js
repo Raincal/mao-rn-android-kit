@@ -9,7 +9,7 @@ import {
   TextInput
 } from 'react-native';
 
-import ExtraDimensionsAndroid from 'mao-rn-android-kit/components/extra-dimensions';
+import ExtraDimensionsAndroid from 'rain-rn-android-kit/components/extra-dimensions';
 
 import BackButton from './back-button';
 

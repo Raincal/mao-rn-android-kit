@@ -1,6 +1,6 @@
 {
-  "name": "mao-rn-android-kit",
-  "version": "0.5.0",
+  "name": "rain-rn-android-kit",
+  "version": "0.6.2",
   "author": "maolion.j@gmail.com",
   "description": "为 React Native 开发 提供的一些Android原生模块/组件 (react native, CoordinatorLayout, AppBarLayout, TabLayout, NestedScrollView, PopupWindow)",
   "keywords": [
@@ -19,16 +19,16 @@
     "Dimensions"
   ],
   "bugs": {
-    "url": "https://github.com/maolion/mao-rn-android-kit/issues"
+    "url": "https://github.com/Raincal/rain-rn-android-kit/issues"
   },
   "main": "./index.js",
   "typings": "./index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maolion/mao-rn-android-kit.git"
+    "url": "https://github.com/Raincal/rain-rn-android-kit.git"
   },
-  "homepage": "https://github.com/maolion/mao-rn-android-kit",
+  "homepage": "https://github.com/Raincal/rain-rn-android-kit",
   "scripts": {
     "start": "tsc --watch",
     "tslint": "tslint",

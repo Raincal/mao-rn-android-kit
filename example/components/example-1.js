@@ -17,7 +17,7 @@ import {
   NestedScrollViewAndroid,
   PopupWindowAndroid,
   TabLayoutAndroid
-} from 'mao-rn-android-kit';
+} from 'rain-rn-android-kit';
 
 import BackButton from './back-button';
 

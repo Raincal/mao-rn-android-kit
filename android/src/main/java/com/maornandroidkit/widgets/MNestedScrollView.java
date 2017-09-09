@@ -27,7 +27,7 @@ public class MNestedScrollView extends NestedScrollView implements ReactClipping
   @Nullable
   Rect clippingRect;
 
-  public static void emitScrollEvent(ViewGroup scrollView, int scrollX, int scrollY) {
+  public static void emitScrollEvent(ViewGroup scrollView, int scrollX, int scrollY, float xVelocity, float yVelocity) {
     View contentView = scrollView.getChildAt(0);
     ReactContext reactContext = (ReactContext) scrollView.getContext();
 
@@ -37,6 +37,8 @@ public class MNestedScrollView extends NestedScrollView implements ReactClipping
                     ScrollEventType.SCROLL,
                     scrollX,
                     scrollY,
+                    xVelocity,
+                    yVelocity,
                     contentView.getWidth(),
                     contentView.getHeight(),
                     scrollView.getWidth(),
@@ -85,7 +87,7 @@ public class MNestedScrollView extends NestedScrollView implements ReactClipping
       }
     }
 
-    MNestedScrollView.emitScrollEvent(this, x, y);
+    MNestedScrollView.emitScrollEvent(this, x, y, 0, 0);
   }
 
   @Override

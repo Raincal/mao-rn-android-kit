@@ -1,5 +1,5 @@
-[![NPM Package](https://badge.fury.io/js/mao-rn-android-kit.svg)](https://www.npmjs.com/package/mao-rn-android-kit)
-# mao-rn-android-kit
+[![npm version](https://badge.fury.io/js/rain-rn-android-kit.svg)](https://badge.fury.io/js/rain-rn-android-kit)
+# rain-rn-android-kit
 
 为 React Native 开发 提供的一些Android原生模块/组件
 
@@ -25,14 +25,14 @@
 
 ## 安装
 
-#### 第一步、执行 ```npm install mao-rn-android-kit --save``` 安装 该npm包
+#### 第一步、执行 ```npm install rain-rn-android-kit --save``` 安装 该npm包
 
 #### 第二步、配置你项目中的 ```android/settings.gradle``` 文件
 ```
 ....
 
-include ':mao-rn-android-kit'
-project(':mao-rn-android-kit').projectDir = new File(settingsDir, '../node_modules/mao-rn-android-kit/android')
+include ':rain-rn-android-kit'
+project(':rain-rn-android-kit').projectDir = new File(settingsDir, '../node_modules/rain-rn-android-kit/android')
 
 ```
 
@@ -41,7 +41,7 @@ project(':mao-rn-android-kit').projectDir = new File(settingsDir, '../node_modul
 ...
 dependencies {
     ...
-    compile project(':mao-rn-android-kit') // <-- 加入这条
+    compile project(':rain-rn-android-kit') // <-- 加入这条
 }
 ```
 

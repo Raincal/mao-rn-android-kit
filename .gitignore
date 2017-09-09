@@ -46,7 +46,9 @@ android/keystores/debug.keystore
 .flowconfig
 .watchmanconfig
 .vscode
-dist
+dist/android
+dist/README.md
+dist/package.json
 devtools/local-debug.js
 typings/*
 !typings/extends/
